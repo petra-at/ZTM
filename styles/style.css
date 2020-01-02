@@ -1,0 +1,72 @@
+  table, th, td {
+        border: 1px solid black;
+        border-collapse:collapse;
+        text-align: center;
+        padding: 10px;
+      }
+
+      table{
+        display: inline;
+        margin: 30px;
+        border-color:white;
+      }
+
+
+      h1{
+        text-align: center;
+      }
+
+      img{
+        display: block;
+        margin: 0 auto;
+        border: 5px solid black;
+      }
+
+      body{
+        width: 1000px;
+        margin: 0 auto;
+        border: 1px grey solid;
+        padding: 40px;
+        font-family: 'Alatsi', sans-serif;
+      }
+
+      pre
+      {
+        font-family: 'Alatsi', sans-serif;
+      }
+
+      nav li{
+        display:inline;
+        margin-right: 10px;
+      }
+      ul{
+        padding-left: 0;
+
+      }
+
+      ul#nav{
+        float: right;
+
+      }
+      footer
+      {
+        text-align: center;
+        padding-top: 50;
+      }
+      h3{
+      text-decoration: underline;
+      }
+
+      fieldset{
+        margin-bottom: 3em;
+      }
+
+      a[href="#top"]{
+        display:block;
+        margin:0 auto;
+        text-align: center;
+      }
+
+      #mailList{
+        margin-top:2em;
+      }

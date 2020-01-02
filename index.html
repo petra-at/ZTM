@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>HTML,CSS,JS Practice</title>
+		<meta charset="UTF-8">
+		<meta name = "author" content = "Petra Adu-Tei">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name = "description" content = "This site serves as a practice environment to hone my web development skills.">
+		<meta name = "date" content="2019-12-28" scheme="YYYY-MM-DD">
+		<meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./styles/style.css">
+	<style>
+
+	</style>
+	</head>
+	<body>
+		<br id = "#top"/>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://mailchi.mp/3284c2e51e79/b2b_students">Join Email List</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contactArea">Contact</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+
+    <!-- SEARCH BAR -->
+
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+	<div class="jumbotron">
+  <h1 class="display-4">Back 2 Basics</h1>
+  <p class="lead">Learning HTML, CSS, JS.<br/>
+   I am re-teaching myself the fundamentals of web development so that I can properly fill in the knowledge gaps I have.</p>
+  <hr class="my-4">
+  <p>Written: <time datetime="2019-12-28">28th December 2019</time>
+  <br>By: Coda Girl<br/>
+  <a id="mailList" href="https://mailchi.mp/3284c2e51e79/b2b_students" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Find out More!</a>
+</div>
+
+		<img src="images/html-css-js.jpg" alt="Picture of the html, css, and js logo." style=" width: 450px;height:300px;" usemap=#webpathMap>
+
+
+		<map name="webpathMap">
+			<area shape="rect" coords="37,70,145,230" alt="HTML logo" href="https://www.w3schools.com/html/default.asp">
+			<area shape="rect" coords="300,70,145,230" alt="CSS logo" href="https://www.w3schools.com/css/default.asp" >
+			<area shape="rect" coords="120,70,145,230" alt="JS logo" href="https://www.w3schools.com/js/default.asp">
+		</map>
+		<h3>Links</h3>
+		<ul style="list-style-type:square;">
+			<li><a href="https://developer.mozilla.org/">MDN</a></li>
+			<li><a href="https://www.w3schools.com/">W3 School</a></li>
+		</ul>
+
+		<pre>
+Why am I doing this, because :
+
+1. I <em>honestly</em> can't <strong>imagine</strong> myself being in <i>any other</i> <b>profession</b>.
+
+2. I've tasted the<del> joy </del> no <ins>satisfaction</ins>, of coding a solution and the achievemet you feel when you code something and it works.
+
+<b>So I'm going to do my BEST to become the best programmer I can be.  </b>
+
+		</pre>
+
+		<table id="curriculum">
+			<caption>Table 1: The Curriculum </caption>
+			<tr>
+				<th>Date</th>
+				<th>Subject</th>
+				<th>Completed</th>
+			</tr>
+			<tr>
+				<td>28-12-2019</td>
+				<td>FrontEnd Development</td>
+				<td>&#9989;</td>
+			</tr>
+				<tr>
+				<td>29-12-2019</td>
+				<td>BackEnd Development</td>
+				<td>&#9989;</td>
+			</tr>
+				<tr>
+				<td>30-12-2019</td>
+				<td>Database Development</td>
+				<td>&#9989;</td>
+			</tr>
+		</table>
+
+		<table id ="skills">
+			<caption>Table 2: Skills</caption>
+
+			<tr>
+				<th>HTML</th>
+				<td>&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;
+			</tr>
+			<tr>
+				<th>CSS</th>
+				<td>&#x2605;&#x2605;&#x2605;
+			</tr>
+
+			<tr>
+				<th>JS</th>
+				<td>&#x2605;&#x2605;
+			</tr>
+			<tr>
+				<th>Databases</th>
+				<td>&#x2605;
+			</tr>
+		</table>
+		<h3 id ="contactArea">Contact Form </h3>
+
+		<form action="mailto:petra.adutei@yahoo.co.uk" method="post" autocomplete enctype="text/plain">
+
+			<fieldset id="userInformation">
+				<legend> User Information </legend>
+
+					Firstname: <input type="text" name="firstname"/><br/>
+					Surname: <input type="text" name="surname"/><br/>
+					Email: <input type="email" name="email"/><br/>
+					D.O.B: <input type = "date" name="dob"/> <br/>
+					Sex:
+					<input type = "radio" name="gender" value="male"/>Male
+					<input type = "radio" name="gender" value="female"/> Female<br/>
+					Bachelor Degree:
+					<select name="degrees">
+						<option value="#">Please select a degree</option>
+						<option value ="AerospaceEngineering">Aerospace Engineering</option>
+						<option value ="Biology">Biology</option>
+						<option value ="Computer Science">Computer Science</option>
+						<option value ="Dentisty">Dentistry</option>
+						<option value ="Electrical Engineering">Electrical Engineering</option>
+						<option value ="Finance">Finance</option>
+						<option value ="Geography">Geography</option>
+						<option value ="History">History</option>
+						<option value ="International Law">International Law</option>
+						<option value ="Journalism">International Law</option>
+						<option value ="Physics">Physics</option>
+						<option value ="Liberal Arts">Liberal Arts</option>
+					</select>
+			</fieldset>
+
+			<fieldset>
+				<legend> Form of Contact</legend>
+				<input type = "radio" name="contactType" value="phone"/>Call
+				<input type = "radio" name="contactType" value="email"/> Email
+				<input type = "radio" name="contactType" value="sms"/> SMS<br/>
+				Enter Phone No:<input type="tel" name ="phoneNo" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" title="Enter as 0123-456-7890">
+			</fieldset>
+
+			<fieldset>
+				<Legend>Feedback</Legend>
+				<p>We value your opinion and would love to get feedback on how our form meets your standards.</p>
+				<textarea name="feedback" rows="10" cols="100"></textarea><br/>
+				Rating:<br/>
+				<label for="rating">0</label>
+				<input type="range" min="0" max="10" value ="0" name="rating"/>
+				<label for="rating">10</label>
+			</fieldset>
+
+			 <input type="submit" value="Submit">
+			 <input type="reset" value="Clear">
+
+		</form>
+		<a href="#top">Top</a>
+			<footer>
+				<p>Petra Adu-Tei &copy;2019 PAT Productions, Inc.</p>
+			</footer>
+			<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	</body>
+</html>
